@@ -15,7 +15,7 @@ Your assignment is to work through the [Angular tutorial.](https://angular.io/do
 
 You will need to turn in 7 commits. One for each chapter of the tutorial, including the quickstart guide.
 
-Include a README file that includes the following:
+Include a README file that includes the following (Add emojis. It makes things more fun! :smile: ):
 
 - Name of project
 - Build instructions
@@ -32,3 +32,4 @@ Also, as part of this assignment, you will need to include a .gitignore file to 
 - Angular 2 is a complete rewrite from Angular 1. It is still in open beta, but it is poised to be a big deal in web development.
 - Don't worry if you don't understand all the specifics with the details of the framework. Try and keep a broad view of how things connect. At the end of the day, in Angular we are still writing web components. Like what we did in Polymer or React.
 - Research .gitignore files and why you should use them.
+- For complete list of emojis go [here](http://www.emoji-cheat-sheet.com/)
