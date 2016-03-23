@@ -3,26 +3,26 @@
 2 info using npm@2.14.12
 3 info using node@v4.2.4
 4 verbose stack Error: Failed to parse json
-4 verbose stack Unexpected token '{' at 31:1
-4 verbose stack {
+4 verbose stack Unexpected end of input at 30:1
+4 verbose stack
 4 verbose stack ^
 4 verbose stack     at parseError (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:379:11)
 4 verbose stack     at parseJson (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:68:23)
 4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:48:5
 4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:76:16
 4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:380:3)
-5 verbose cwd /Users/brettrick/Documents/Tools & Frameworks II/Angular2/quick start
+5 verbose cwd /Users/brettrick/Documents/Tools & Frameworks II/Angular2/Angular2Assign
 6 error Darwin 15.0.0
 7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
 8 error node v4.2.4
 9 error npm  v2.14.12
-10 error file /Users/brettrick/Documents/Tools & Frameworks II/Angular2/quick start/package.json
+10 error file /Users/brettrick/Documents/Tools & Frameworks II/Angular2/Angular2Assign/package.json
 11 error code EJSONPARSE
 12 error Failed to parse json
-12 error Unexpected token '{' at 31:1
-12 error {
+12 error Unexpected end of input at 30:1
+12 error
 12 error ^
-13 error File: /Users/brettrick/Documents/Tools & Frameworks II/Angular2/quick start/package.json
+13 error File: /Users/brettrick/Documents/Tools & Frameworks II/Angular2/Angular2Assign/package.json
 14 error Failed to parse package.json data.
 14 error package.json must be actual JSON, not just JavaScript.
 14 error
