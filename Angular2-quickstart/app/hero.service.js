@@ -42,6 +42,10 @@ System.register(['angular2/core', './mock-heroes'], function(exports_1, context_
                 return HeroService;
             }());
             exports_1("HeroService", HeroService);
+            getHero(id, number);
+            {
+                return Promise.resolve(mock_heroes_1.HEROES).then(function (heroes) { return heroes.filter(function (hero) { return hero.id === id; })[0]; });
+            }
         }
     }
 });
