@@ -1,8 +1,7 @@
 import {Component} from 'angular2/core';
-interface Hero {
-  id: number;
-  name: string;
-}
+import {Hero} from './hero';
+import {HeroDetailComponent} from './hero-detail.component';
+
 @Component({
   selector: 'my-app',
   template:`
@@ -15,15 +14,9 @@ interface Hero {
         <span class="badge">{{hero.id}}</span> {{hero.name}}
       </li>
     </ul>
-    <div *ngIf="selectedHero">
-      <h2>{{selectedHero.name}} details!</h2>
-      <div><label>id: </label>{{selectedHero.id}}</div>
-      <div>
-        <label>name: </label>
-        <input [(ngModel)]="selectedHero.name" placeholder="name"/>
-      </div>
-    </div>
+    <my-hero-detail [hero]="selectedHero"></my-hero-detail>
   `,
+  
   styles:[`
     .selected {
       background-color: #CFD8DC !important;
@@ -33,7 +26,7 @@ interface Hero {
       margin: 0 0 2em 0;
       list-style-type: none;
       padding: 0;
-      width: 10em;
+      width: 15em;
     }
     .heroes li {
       cursor: pointer;
@@ -72,14 +65,17 @@ interface Hero {
       margin-right: .8em;
       border-radius: 4px 0 0 4px;
     }
-  `]
+  `],
+  directives: [HeroDetailComponent]
 })
+
 export class AppComponent {
   title = 'Tour of Heroes';
   heroes = HEROES;
   selectedHero: Hero;
   onSelect(hero: Hero) { this.selectedHero = hero; }
 }
+
 var HEROES: Hero[] = [
   { "id": 11, "name": "Mr. Nice" },
   { "id": 12, "name": "Narco" },
