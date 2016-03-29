@@ -1,35 +1,14 @@
-# Angular2Assign
-This is an assignment to gain exposure to Angular 2.
 
-Angular is a complete framework for writing single page applications. When using Angular, you can use a few different languages that all get transpiled to es5 (for now). These include Javascript, Typescript and Dart. There is a focus on Typescript. For this assignment you will be using Typescript.
-
-Learn more about Typescript [here.](http://www.typescriptlang.org/)
+Angular 2 Assignment - Tour of Heroes :cop:
 
 
-#Steps
-We will be stating from scratch on this assignment and pushing your finished code to you github account, and turning in a URL to the repo.
-
-# Assignment
-
-Your assignment is to work through the [Angular tutorial.](https://angular.io/docs/ts/latest/tutorial/)
-
-You will need to turn in 7 commits. One for each chapter of the tutorial, including the quickstart guide.
-
-Include a README file that includes the following (Add emojis. It makes things more fun! :smile: ):
-
-- Name of project
-- Build instructions
-- What you learned
-- What you found difficult
-- Why are .gitignore files important
-
-Also, as part of this assignment, you will need to include a .gitignore file to ignore files that *shouldn't* be tracked by git.
+Click here: [Angular tutorial.](https://angular.io/docs/ts/latest/tutorial/) and follow the Case Study: Tour of Heroes
+Add a .gitignore file to your project. 
 
 
+With this assignment I learned how important it is to be organized when you are coding. :angry:
 
-#Tips
-- Typescript is a strongly typed language. Learn more about type systems [here.](https://www.smashingmagazine.com/2013/04/introduction-to-programming-type-systems/)
-- Angular 2 is a complete rewrite from Angular 1. It is still in open beta, but it is poised to be a big deal in web development.
-- Don't worry if you don't understand all the specifics with the details of the framework. Try and keep a broad view of how things connect. At the end of the day, in Angular we are still writing web components. Like what we did in Polymer or React.
-- Research .gitignore files and why you should use them.
-- For complete list of emojis go [here](http://www.emoji-cheat-sheet.com/)
+I got lost a couple times trying to figure out why one piece of code was different from the other when it just turned out it was a completely different file. :anguished:
+
+Because it helps the program run faster when it doesn't have to run files that aren't important. 
+
